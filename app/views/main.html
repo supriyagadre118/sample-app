@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h3>Title goes here!!</h3>
+  <p><div class="btn btn-lg btn-success" ng-click="getData()">Get Data!</div></p>
+</div>
+
+<div class="jumbotron">
+  <p>Display data here!!</p>
+  <div ng-if="showData" ng-repeat="item in sampleData.data" class="data-format">
+    <div>{{item.accountNumber}}</div>
+    <div ng-bind="item.accountName"></div>
+    <div ng-bind="item.currencyCode"></div>
+  </div>
+</div>

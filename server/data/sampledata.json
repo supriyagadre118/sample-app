@@ -1,0 +1,25 @@
+{
+  "data":[
+    {
+      "accountId": "sd1",
+      "accountNumber": "4279691818",
+      "currencyCode": "HKD",
+      "accountName": "SD Account 1",
+      "productDescription": "SD Account 1"
+    },
+    {
+      "accountId": "sd2",
+      "accountNumber": "4279691818",
+      "currencyCode": "USD",
+      "accountName": "SD Account 2",
+      "productDescription": "SD Account 2"
+    },
+    {
+      "accountId": "sd3",
+      "accountNumber": "4279691818",
+      "currencyCode": "SGD",
+      "accountName": "SD Account 3",
+      "productDescription": "SD Account 3"
+    }
+  ]
+}
